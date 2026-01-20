@@ -2,3 +2,7 @@
     max-width: 960px !important;  
     margin: auto;
 }
+body, .footer {
+    background-color:var(--bulma-primary-00)!important;
+    color: rgb(241, 236, 226);
+}
