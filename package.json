@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "sergey": "^0.0.1"
+  },
+  "name": "sergey-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "sergey",
+    "dev": "sergey --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
