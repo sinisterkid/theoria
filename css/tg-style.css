@@ -3,8 +3,8 @@
     margin: auto;
 }
 body, .footer {
-    /*background-color:var(--bulma-primary-00)!important;
-    color: rgb(241, 236, 226);*/
+    background-color: #F7F0DC !important;
+    color: #4F3A0F !important;
 }
 body, button, input, optgroup, select, textarea {
     font-family: 'Karla', sans-serif !important;
@@ -14,4 +14,41 @@ h1, h2, h3, h4, h5, .title {
   font-optical-sizing: auto;
   font-weight: 200;
   font-style: normal;
+}
+#tg-logo {
+    fill: #BC9F3F;
+    height: 200px;
+    width: 200px;
+}
+#tg-monogram {
+    fill: #8F7645;
+    height: 50px;
+    width: 50px;
+}
+.hero.is-tg {
+    --bulma-hero-h: var(--bulma-light-h);
+    --bulma-hero-s: var(--bulma-light-s);
+    --bulma-hero-background-l: var(--bulma-light-l);
+    --bulma-hero-color-l: var(--bulma-light-invert-l);
+    background-color: #224526;
+    color: hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l));
+}
+.hero.is-tg .navbar {
+    --bulma-navbar-item-color: hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l));
+    --bulma-navbar-item-hover-background-color: hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l));
+    --bulma-navbar-item-hover-color: hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-background-l));
+    --bulma-navbar-item-active-background-color: hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l));
+    --bulma-navbar-item-active-color: hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-background-l));
+}
+.hero.is-tg .title {
+    --bulma-title-color: hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l));
+    --bulma-title-strong-color: hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l));
+}
+.hero.is-tg .subtitle {
+    --bulma-subtitle-color: hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l));
+    --bulma-subtitle-strong-color: hsl(var(--bulma-hero-h), var(--bulma-hero-s), var(--bulma-hero-color-l));
+}
+.hero.is-tg, .hero.is-tg .title, .hero.is-tg .subtitle {
+    color: #BC9F3F;
+    font-weight: 200;
 }
