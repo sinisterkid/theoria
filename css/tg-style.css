@@ -7,13 +7,30 @@ body, .footer {
     color: #4F3A0F !important;
 }
 body, button, input, optgroup, select, textarea {
-    font-family: 'Karla', sans-serif !important;
+    font-family: 'IBM Plex Sans', sans-serif !important;
 }
-h1, h2, h3, h4, h5, .title {
-  font-family: 'Karla', sans-serif !important;
+h1, h2, h3, h4, h5 {
+  font-family: 'IBM Plex Sans', sans-serif !important;
   font-optical-sizing: auto;
-  font-weight: 200;
+  font-weight: 200 important;
   font-style: normal;
+}
+.title {
+  font-family: 'Cormorant', sans-serif !important;
+  font-optical-sizing: auto;
+  font-weight: 200 important;
+  font-style: normal;
+}
+p.is-size-3, p.is-size-4 {
+    font-weight: 200 !important;
+    padding: 0 20px;
+}
+.footer a, .column a {
+    color: #BC9F3F;
+}
+ .footer a:hover, .column a:hover {
+    color: #8F7645;
+    text-decoration: underline;
 }
 #tg-logo {
     fill: #BC9F3F;
@@ -24,6 +41,11 @@ h1, h2, h3, h4, h5, .title {
     fill: #8F7645;
     height: 50px;
     width: 50px;
+}
+/* Mailchimp */
+#mc_embed_signup input.button {
+    background-color: #BC9F3F;
+    border: 0;
 }
 .hero.is-tg {
     --bulma-hero-h: var(--bulma-light-h);
